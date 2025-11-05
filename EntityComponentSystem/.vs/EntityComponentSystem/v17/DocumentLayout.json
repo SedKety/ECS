@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nobem\\Documents\\Github\\ECS\\EntityComponentSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E97EF431-9DE1-418C-8CCF-7B9A05D2D667}|EntityComponentSystem.vcxproj|C:\\Users\\nobem\\Documents\\Github\\ECS\\EntityComponentSystem\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E97EF431-9DE1-418C-8CCF-7B9A05D2D667}|EntityComponentSystem.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cpp",
+              "DocumentMoniker": "C:\\Users\\nobem\\Documents\\Github\\ECS\\EntityComponentSystem\\Program.cpp",
+              "RelativeDocumentMoniker": "Program.cpp",
+              "ToolTip": "C:\\Users\\nobem\\Documents\\Github\\ECS\\EntityComponentSystem\\Program.cpp",
+              "RelativeToolTip": "Program.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAEkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-05T19:29:23.345Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
