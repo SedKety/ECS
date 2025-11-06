@@ -127,7 +127,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="CTransform.cpp" />
+    <ClCompile Include="CVelocity.cpp" />
+    <ClCompile Include="ECS.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="PhyisicsSystem.cpp" />
+    <ClCompile Include="PhysicsSystem.h" />
     <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Vector3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="CTransform.h" />
+    <ClInclude Include="CVelocity.h" />
+    <ClInclude Include="ECS.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Vector3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
