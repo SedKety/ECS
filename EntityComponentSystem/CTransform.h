@@ -1,12 +1,12 @@
 #pragma once
-#include "Vector3.h"
+#include "DataTypes.h"
 #include "Component.h"
 
 struct CTransform : Component {
     Vector3 position;
-    Vector3 rotation;
+	Quaternion rotation;
     Vector3 scale;
-    CTransform(Vector3 pos, Vector3 rot, Vector3 size)
+    CTransform(Vector3 pos, Quaternion rot, Vector3 size)
         : position(pos), rotation(rot), scale(size) {
     }
 };

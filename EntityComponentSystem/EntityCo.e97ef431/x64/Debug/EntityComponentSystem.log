@@ -1,4 +1,3 @@
-﻿  PhysicsSystem.h
-  Program.cpp
-  Generating Code...
+﻿  Program.cpp
+C:\Users\nobem\Documents\Github\ECS\EntityComponentSystem\Program.cpp(19,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   EntityComponentSystem.vcxproj -> C:\Users\nobem\Documents\Github\ECS\EntityComponentSystem\x64\Debug\EntityComponentSystem.exe

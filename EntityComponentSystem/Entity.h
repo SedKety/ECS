@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 #include <vector>
 #include <memory>
 #include "Component.h"
@@ -11,7 +12,8 @@ struct Entity {
     Entity(int id) : id(id) {} //Constructor, takes id as EVERY entity MUST have an id
     //Deconstructor
     ~Entity() {
-        for (auto* comp : components) delete comp; //Delete all the components to prevent memory leakings
+        components.clear(); //Delete all the components to prevent memory leakings
+		components.shrink_to_fit(); // Free unused memory
     }
 
 public:
@@ -25,17 +27,6 @@ public:
     T* GetComponent() {
         for (auto* comp : components) {
             if (auto* desired = dynamic_cast<T*>(comp)) {
-                return desired;
-            }
-        }
-        return nullptr;
-    }
-
-    // Const version (read-only access)
-    template<typename T>
-    const T* GetComponent() const {
-        for (auto* comp : components) {
-            if (auto* desired = dynamic_cast<const T*>(comp)) {
                 return desired;
             }
         }

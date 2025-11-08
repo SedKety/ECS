@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include "DataTypes.h"	
 
 //Entity
 #include "Entity.h"	
@@ -16,5 +17,6 @@
 //ECS
 struct ECS {
 	std::vector<Entity> entities;
-	Entity& CreateEntity(int id);
+	Entity* CreateEntity(int id);
+	Entity* GetEntity(int id);
 }; 

@@ -48,9 +48,6 @@
     <ClCompile Include="Program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Vector3.cpp">
-      <Filter>Source Files\DataTypes</Filter>
-    </ClCompile>
     <ClCompile Include="Entity.cpp">
       <Filter>Source Files\ECS\Entity</Filter>
     </ClCompile>
@@ -91,6 +88,12 @@
     </ClInclude>
     <ClInclude Include="CVelocity.h">
       <Filter>Header Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypes.h">
+      <Filter>Header Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Header Files\DataTypes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
